@@ -1,5 +1,7 @@
 # Игнорировать текстуры с префиксом "TODO_"
 /assets/**/TODO_*.png
+/assets/**/TODO_*.pdn
+/assets/**/TODO_*.mcmeta
 
 # Windows image file caches
 Thumbs.db
