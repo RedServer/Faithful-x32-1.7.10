@@ -1,3 +1,6 @@
+# Игнорировать текстуры с префиксом "TODO_"
+/assets/**/TODO_*.png
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
