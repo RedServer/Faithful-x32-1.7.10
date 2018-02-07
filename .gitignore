@@ -2,6 +2,7 @@
 /assets/**/TODO_*.png
 /assets/**/TODO_*.pdn
 /assets/**/TODO_*.mcmeta
+*.pdnBak
 
 # Windows image file caches
 Thumbs.db
