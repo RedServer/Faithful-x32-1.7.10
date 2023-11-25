@@ -1,0 +1,15 @@
+pack.png
+pack.mcmeta
+assets/automagy
+assets/baubles
+assets/biomesoplenty
+assets/botania
+assets/customnpcs
+assets/forbidden
+assets/hats
+assets/projectred
+assets/storagedrawers
+assets/thaumcraft
+assets/tinker
+assets/ttinkerer
+assets/twilightforest

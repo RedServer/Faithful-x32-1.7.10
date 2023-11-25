@@ -1,0 +1,35 @@
+name: Build ZIP archive
+
+on:
+  push:
+    branches: ['master']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: 'Create archive: Base'
+        run: cat .distributions/base.txt | zip -rq9 Faithful-x32-1.7.10-Base.zip -@
+
+      - name: 'Create archive: Modern'
+        run: cat .distributions/modern.txt | zip -rq9 Faithful-x32-1.7.10-Modern.zip -@
+
+      - name: 'Create archive: Magic'
+        run: cat .distributions/magic.txt | zip -rq9 Faithful-x32-1.7.10-Magic.zip -@
+
+      - name: 'Create archive: TechnoMagic'
+        run: cat .distributions/technomagic.txt | zip -rq9 Faithful-x32-1.7.10-TechnoMagic.zip -@
+
+      - name: 'Create archive: HardTech'
+        run: cat .distributions/hardtech.txt | zip -rq9 Faithful-x32-1.7.10-HardTech.zip -@
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: archives
+          path: Faithful-x32-*.zip
+          if-no-files-found: error

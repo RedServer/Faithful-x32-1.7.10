@@ -1,0 +1,12 @@
+pack.png
+pack.mcmeta
+assets/bibliocraft
+assets/carpentersblocks
+assets/chisel
+assets/fml
+assets/ic2backpackhud
+assets/ironchest
+assets/jabba
+assets/minecraft
+assets/nei
+assets/neiaddons
