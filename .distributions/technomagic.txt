@@ -20,6 +20,7 @@ assets/buildcrafttransport
 assets/cofh
 assets/electromagictools
 assets/enderio
+assets/energycontrol
 assets/extrabees
 assets/extratrees
 assets/forestry
@@ -37,3 +38,4 @@ assets/railcraft
 assets/storagedrawers
 assets/thaumcraft
 assets/ttinkerer
+assets/zlib

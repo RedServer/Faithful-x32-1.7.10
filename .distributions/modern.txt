@@ -15,6 +15,7 @@ assets/buildcraftrobotics
 assets/buildcraftsilicon
 assets/buildcrafttransport
 assets/cofh
+assets/energycontrol
 assets/extrabees
 assets/extrabiomesxl
 assets/extratrees
@@ -33,3 +34,4 @@ assets/railcraft
 assets/thermaldynamics
 assets/thermalexpansion
 assets/thermalfoundation
+assets/zlib
