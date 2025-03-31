@@ -6,11 +6,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 'Create archive: Base'
         run: cat .distributions/base.txt | zip -rq9 Faithful-x32-1.7.10-Base.zip -@
@@ -28,7 +28,7 @@ jobs:
         run: cat .distributions/hardtech.txt | zip -rq9 Faithful-x32-1.7.10-HardTech.zip -@
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: archives
           path: Faithful-x32-*.zip
